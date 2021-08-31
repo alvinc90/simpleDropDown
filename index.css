@@ -1,0 +1,98 @@
+* {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.outer-container, .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lists {
+    display: block;
+}
+
+.lists {
+    display: none;
+    list-style: none;
+    background-color: beige;
+    width: 70%;
+    padding: 0px;
+    border-radius: 10px;
+    position: relative;
+    left: 15%;
+}
+
+.lists li:hover {
+    background-color: rgb(224, 222, 222);
+    cursor: pointer;
+    color: #d7255f;
+}
+
+.lists li:last-child:hover {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.lists li:first-child:hover {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+body {
+    background-color: #E8E9EB;
+}
+
+h1 {
+    color: #d7255f
+}
+
+li {
+    padding: 15px;
+}
+
+.menu {
+    background-color: brown;
+    color: whitesmoke;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+
+.total-container {
+    position: absolute;
+    top: 75%;
+    display: flex;
+}
+
+.total, #res {
+    color: #d7255f;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.reset-button {
+    background-color: brown;
+    color: whitesmoke;
+    border: none;
+    padding: 15px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+.reset-button:hover {
+    cursor: pointer;
+}
+
+.button-container {
+    margin-top: 10px;
+    position: absolute;
+    top: 63%;
+    left: 41%;
+}
